@@ -22,6 +22,7 @@
 	padding: 30px;
 	margin: 5px;
 	box-shadow: 0 0 10px;
+	transition: 0.5s;
 }
 .center-content{
 	min-width: 350px;
@@ -35,6 +36,7 @@
 	padding: 30px;
 	margin: 5px;
 	box-shadow: 0 0 15px;
+	transition: 0.5s;
 }
 .content-price{
 	font-family: 'Gudea', sans-serif;
@@ -74,4 +76,8 @@
 .content_b{
 	position: relative;
 	top: 25px;
+}
+#block:hover{
+	-webkit-transform: scale(1.2,1.2);
+
 }
